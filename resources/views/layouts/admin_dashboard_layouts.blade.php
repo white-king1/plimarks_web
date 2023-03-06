@@ -128,7 +128,7 @@
                         <span class="menu-icon">
                             <i class="mdi mdi-texture"></i>
                         </span>
-                        <span class="menu-title">Widgets</span>
+                        <span class="menu-title">All Users</span>
                     </a>
                 </li>
                 <li class="nav-item menu-items">
@@ -693,7 +693,7 @@
                                 <div class="navbar-profile">
                                     <img class="img-xs rounded-circle" src="/admin_assets/images/faces/face15.jpg"
                                         alt="">
-                                    <p class="mb-0 d-none d-sm-block navbar-profile-name">Henry Klein</p>
+                                    <p class="mb-0 d-none d-sm-block navbar-profile-name"> {{ Auth::user()->name }}</p>
                                     <i class="mdi mdi-menu-down d-none d-sm-block"></i>
                                 </div>
                             </a>
