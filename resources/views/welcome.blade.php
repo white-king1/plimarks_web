@@ -9,11 +9,9 @@
         <span class="app-dm-banner-shape4 shpae-wrap3 position-absolute"><img src="/assets/img/d-marketing/s-sh4.png" alt=""></span>
         <div class="container">
             <div class="app-dm-banner-content app-dm-headline pera-content">
-                <span>Wellcome to Appilo Agency</span>
-                <h1>We Are Digital
-                Marketing Agency</h1>
-                <p>A Theme for Portfolio, Photography & Bakary Freelancer, Lawsfirm, Fasion,
-                Retails Store Other Category.</p>
+                <span>Wellcome to Plimarks.com</span>
+                <h1>A Public Internet Market Place</h1>
+                <p>Signup With us here and Get a Space to sell your Products</p>
                 <div class="app-dm-btn">
                     <a class="d-flex justify-content-center align-items-center" href="service.html">Get Service <i class="flaticon-right-arrow"></i></a>
                 </div>

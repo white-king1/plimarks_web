@@ -40,9 +40,9 @@
                        <div class="app-dm-header-top d-flex justify-content-between align-items-center">
                            <div class="app-dm-header-cta ul-li ">
                                <ul>
-                                   <li>Monday-Friday </li>
-                                   <li>9:00AM - 06:00PM </li>
-                                   <li>Closed On Weeknends </li>
+                                   <li>We Are Open </li>
+                                   <li>24/7 </li>
+                                   <li>Everyday</li>
                                </ul>
                            </div>
                            <div class="app-dm-header-top-social d-flex align-items-center">
@@ -64,7 +64,7 @@
                                </ul>
                            </nav>
                            <div class="app-dm-btn">
-                               <a class="d-flex justify-content-center align-items-center" href="#">View products<i class="flaticon-right-arrow"></i></a>
+                               <a class="d-flex justify-content-center align-items-center" href="#"><i class="flaticon-shopping-cart"></i>View produ<i class="flaticon-right-arrow"></i></a>
                            </div>
                        </div>
                    </div>

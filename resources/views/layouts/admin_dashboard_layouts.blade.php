@@ -137,7 +137,7 @@
                         <span class="menu-icon">
                             <i class="mdi mdi-view-list"></i>
                         </span>
-                        <span class="menu-title">Page Layouts</span>
+                        <span class="menu-title">Product Categories</span>
                         <i class="menu-arrow"></i>
                     </a>
                     <div class="collapse" id="page-layouts">
