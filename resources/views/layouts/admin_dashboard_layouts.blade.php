@@ -712,6 +712,7 @@
                                     </div>
                                 </a>
                                 <div class="dropdown-divider"></div>
+                                <form action="{{ route('logout') }} " method="post">@csrf
                                 <a class="dropdown-item preview-item">
                                     <div class="preview-thumbnail">
                                         <div class="preview-icon bg-dark rounded-circle">
@@ -719,9 +720,11 @@
                                         </div>
                                     </div>
                                     <div class="preview-item-content">
-                                        <p class="preview-subject mb-1">Log out</p>
+                                        <button class="btn btn-primary px-3"><i class="text-white" data-feather="log-in">
+                                        </i>Logout</button>
                                     </div>
                                 </a>
+                                </form>
                                 <div class="dropdown-divider"></div>
                                 <p class="p-3 mb-0 text-center">Advanced settings</p>
                             </div>
