@@ -52,11 +52,12 @@
         <!-- partial:partials/_sidebar.html -->
         <nav class="sidebar sidebar-offcanvas" id="sidebar">
             <div class="sidebar-brand-wrapper d-none d-lg-flex align-items-center justify-content-center fixed-top">
-                <a class="sidebar-brand brand-logo" href="index.html"><img
-                        src="https://www.bootstrapdash.com/demo/corona/jquery/template/admin_assets/images/logo.svg"
+                <a class="sidebar-brand brand-logo" href="index.html"><img class="img-fluid"
+                        src="/admin_assets/images/plimarks2.jpg"
                         alt="logo" /></a>
-                <a class="sidebar-brand brand-logo-mini" href="index.html"><img
-                        src="https://www.bootstrapdash.com/demo/corona/jquery/template/admin_assets/images/logo-mini.svg"
+                <a class="sidebar-brand brand-logo-mini" href="index.html">
+                    <img class="img-fluid"
+                        src="/admin_assets/images/plimarks2.jpg"
                         alt="logo" /></a>
             </div>
             <ul class="nav">
@@ -745,8 +746,8 @@
                 <!-- partial:partials/_footer.html -->
                 <footer class="footer">
                     <div class="d-sm-flex justify-content-center justify-content-sm-between">
-                        <span class="text-muted text-center text-sm-left d-block d-sm-inline-block">Copyright © 2021
-                            <a href="https://www.bootstrapdash.com/" target="_blank">BootstrapDash</a>. All rights
+                        <span class="text-muted text-center text-sm-left d-block d-sm-inline-block">Copyright © 2023
+                            <a href="https://www.bootstrapdash.com/" target="_blank">Plimarks.com</a>. All rights
                             reserved.</span>
                         <span
                             class="text-muted float-none float-sm-right d-block mt-1 mt-sm-0 text-center">Hand-crafted
