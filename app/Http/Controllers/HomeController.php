@@ -25,4 +25,11 @@ class HomeController extends Controller
     {
         return view('users.admin_dashboard');
     }
+
+    public function create()
+    {
+        return view('users.product_categories');
+    }
 }
+
+
