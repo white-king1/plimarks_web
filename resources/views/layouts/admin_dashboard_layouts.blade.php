@@ -125,7 +125,7 @@
                     </a>
                 </li>
                 <li class="nav-item menu-items">
-                    <a class="nav-link" href="#">
+                    <a class="nav-link" href="index.html">
                         <span class="menu-icon">
                             <i class="mdi mdi-texture"></i>
                         </span>
@@ -149,7 +149,7 @@
                             </li>
                         </ul>
                     </div> --}}
-                </li>
+                {{-- </li>
                 <li class="nav-item menu-items">
                     <a class="nav-link" data-bs-toggle="collapse" href="#sidebar-layouts" aria-expanded="false"
                         aria-controls="sidebar-layouts">
@@ -519,7 +519,7 @@
                         </span>
                         <span class="menu-title">Documentation</span>
                     </a>
-                </li>
+                </li> --}}
             </ul>
         </nav>
         <!-- partial -->
