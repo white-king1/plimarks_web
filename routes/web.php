@@ -21,15 +21,16 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
-
+Route::get('/dashboard', 'HomeController@redirect')->name('redirect');
 
 Route::middleware(['auth'])->prefix('admin')->group(function (){
 
     // ADMIN ROUTE STARTS HERE
 
 Route::get('/admin-dashboard', 'AdminDashboardController@admin')->name('admin');
-
 // ADMIN ROUTE ENDS HERE
-
 });
 
+Route::middleware(['auth' ])->prefix('user')->group(function () {
+    Route::get('/', 'DashboardController@index')->name('user.dashboard');
+});
