@@ -125,7 +125,7 @@
                     </a>
                 </li>
                 <li class="nav-item menu-items">
-                    <a class="nav-link" href="pages/widgets/widgets.html">
+                    <a class="nav-link" href="index.html">
                         <span class="menu-icon">
                             <i class="mdi mdi-texture"></i>
                         </span>
@@ -133,23 +133,23 @@
                     </a>
                 </li>
                 <li class="nav-item menu-items">
-                    <a class="nav-link" data-bs-toggle="collapse" href="#page-layouts" aria-expanded="false"
+                    <a class="nav-link" href="{{ route('product_category') }}"aria-expanded="false"
                         aria-controls="page-layouts">
                         <span class="menu-icon">
                             <i class="mdi mdi-view-list"></i>
                         </span>
                         <span class="menu-title">Product Categories</span>
-                        <i class="menu-arrow"></i>
+                        {{-- <i class="menu-arrow"></i> --}}
                     </a>
-                    <div class="collapse" id="page-layouts">
+                    {{-- <div class="collapse" id="page-layouts">
                         <ul class="nav flex-column sub-menu">
                             <li class="nav-item"> <a class="nav-link" href="pages/layout/boxed-layout.html">Boxed</a>
                             </li>
                             <li class="nav-item"> <a class="nav-link" href="pages/layout/rtl-layout.html">RTL</a>
                             </li>
                         </ul>
-                    </div>
-                </li>
+                    </div> --}}
+                {{-- </li>
                 <li class="nav-item menu-items">
                     <a class="nav-link" data-bs-toggle="collapse" href="#sidebar-layouts" aria-expanded="false"
                         aria-controls="sidebar-layouts">
@@ -519,7 +519,7 @@
                         </span>
                         <span class="menu-title">Documentation</span>
                     </a>
-                </li>
+                </li> --}}
             </ul>
         </nav>
         <!-- partial -->
