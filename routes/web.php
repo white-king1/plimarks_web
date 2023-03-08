@@ -25,10 +25,8 @@ Route::get('/dashboard', 'HomeController@redirect')->name('redirect');
 
 Route::middleware(['auth'])->prefix('admin')->group(function (){
 
-    // ADMIN ROUTE STARTS HERE
+Route::get('/admin_dashboard', 'AdminDashboardController@admin')->name('admin');
 
-Route::get('/admin-dashboard', 'AdminDashboardController@admin')->name('admin');
-// ADMIN ROUTE ENDS HERE
 });
 
 Route::middleware(['auth' ])->prefix('user')->group(function () {
