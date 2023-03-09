@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\HomeController;
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -13,9 +14,6 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
-Route::get('/product-cat', 'HomeController@create')->name('product_category');
-
-
 
 Route::get('/', function () {
     return view('welcome');
@@ -30,6 +28,8 @@ Route::get('/dashboard', 'HomeController@redirect')->name('redirect');
 Route::middleware(['auth'])->prefix('admin')->group(function (){
 
 Route::get('/admin_dashboard', 'AdminDashboardController@admin')->name('admin');
+
+Route::get('/product-cat', 'HomeController@create')->name('product_category');
 
 });
 

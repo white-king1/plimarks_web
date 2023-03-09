@@ -29,9 +29,13 @@
        <header id="app-dm-header" class="app-dm-header-main">
            <div class="container">
                <div class="app-dm-header-content position-relative">
-                   <span class="app-dm-logo-shape position-absolute"><img src="/assets/img/d-marketing/img/logo/logo-shape1.png" alt=""></span>
+                   <span class="app-dm-logo-shape position-absolute">
+                    <a href="{{route('home')}}">
+                    <img src="/assets/img/d-marketing/img/logo/logo-shape1.png" alt="">
+                </a>
+                </span>
                    <div class="app-dm-brand-logo  position-absolute">
-                       <a href="#">
+                       <a href="{{route('home')}}">
                            <img class="logo-1" src="/assets/img/d-marketing/img/logo/logo1.1.png" alt="">
                            <img class="logo-2" src="/assets/img/d-marketing/img/logo/logo1.2.png" alt="">
                        </a>
@@ -55,16 +59,23 @@
                        <div class="app-dm-main-menu-wrapper d-flex justify-content-end align-items-center">
                            <nav class="app-dm-main-navigation clearfix ul-li">
                                <ul id="app-dm-main-nav" class="nav navbar-nav clearfix">
+                                @auth
                                    <li><a class="nav-link" href="#app-dm-banner">Home</a></li>
                                    <li><a class="nav-link" href="#app-dm-about">About</a></li>
                                    <li><a class="nav-link" href="#app-dm-service">Service</a></li>
                                    <li><a class="nav-link" href="#app-dm-benifit">Feature</a></li>
+
+                                   @endauth
+
+                                   
+
                                    <li><a class="nav-link" href="{{ route('login') }}">Login</a></li>
                                    <li><a class="nav-link" href="{{ route('register') }}">SignUp</a></li>
+
                                </ul>
                            </nav>
                            <div class="app-dm-btn">
-                               <a class="d-flex justify-content-center align-items-center" href="#"><i class="flaticon-shopping-cart"></i>View produ<i class="flaticon-right-arrow"></i></a>
+                               <a class="d-flex justify-content-center align-items-center" href="#"><i class="fab fa-cart-shopping"></i>View produ<i class="flaticon-right-arrow"></i></a>
                            </div>
                        </div>
                    </div>
@@ -83,12 +94,15 @@
                                </div>
                                <nav class="app-dm-mobile-main-navigation  clearfix ul-li">
                                 <ul id="m-main-nav" class="navbar-nav text-capitalize clearfix">
+                                    @auth
                                    <li><a class="nav-link" href="#app-dm-bannerr">Home</a></li>
                                    <li><a class="nav-link" href="#app-dm-about">About</a></li>
                                    <li><a class="nav-link" href="#app-dm-service">Service</a></li>
                                    <li><a class="nav-link" href="#app-dm-benifit">Feature</a></li>
+                                   @endauth
                                    <li><a class="nav-link" href="{{ route('login') }}">Login</a></li>
                                    <li><a class="nav-link" href="{{ route('register') }}">SignUp</a></li>
+
                                </ul>
                            </nav>
                        </div>

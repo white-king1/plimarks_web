@@ -29,12 +29,12 @@ class HomeController extends Controller
 
     public function redirect()
     {
-       if (Auth::user()->usertype == 'admin') {
-           return redirect()->route('admin');
-       } else {
-           return redirect()->route('user.dashboard');
-       }
+        if(Auth::user()->usertype == 'admin'){
+            return redirect()->route('admin');
 
+        }else{
+            return redirect()->route('user.dashboard');
+        }
     }
 
     public function create()
