@@ -7,7 +7,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Plimarks Admin Dashboard</title>
+    <title>Plimarks User Dashboard</title>
     <!-- plugins:css -->
     <link rel="stylesheet" href="/admin_assets/vendors/mdi/css/materialdesignicons.min.css">
     <link rel="stylesheet" href="/admin_assets/vendors/css/vendor.bundle.base.css">
@@ -125,7 +125,7 @@
                     </a>
                 </li>
 
-                <li class="nav-item menu-items">
+                {{-- <li class="nav-item menu-items">
                     <a class="nav-link" href="index.html">
                         <span class="menu-icon">
                             <i class="mdi mdi-texture"></i>
@@ -141,7 +141,7 @@
                         </span>
                         <span class="menu-title">Product Categories</span>
                         {{-- <i class="menu-arrow"></i> --}}
-                    </a>
+                    {{-- </a> --}} 
                     {{-- <div class="collapse" id="page-layouts">
                         <ul class="nav flex-column sub-menu">
                             <li class="nav-item"> <a class="nav-link" href="pages/layout/boxed-layout.html">Boxed</a>

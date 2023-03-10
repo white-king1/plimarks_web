@@ -24,16 +24,17 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return view('users.admin_dashboard');
+       return view('welcome');
+
     }
 
     public function redirect()
     {
         if(Auth::user()->usertype == 'admin'){
-            return redirect()->route('admin');
+    return view('users.admin_dashboard');
 
         }else{
-            return redirect()->route('user.dashboard');
+            return view('users.dashboard');
         }
     }
 

@@ -1,4 +1,4 @@
-@extends('layouts.admin_dashboard_layouts')
+@extends('layouts.dashboard_layouts')
 @section('content')
     <div class="main-panel">
         <div class="content-wrapper">

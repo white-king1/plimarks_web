@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
    <meta charset="UTF-8">
-   <title>Digital Marketing-One Page</title>
+   <title>Plimarks-Internet Market Place</title>
    <link rel="shortcut icon" href="/assets/img/fv.png" type="image/x-icon">
    <meta name="viewport" content="width=device-width, initial-scale=1">
    <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
@@ -59,15 +59,15 @@
                        <div class="app-dm-main-menu-wrapper d-flex justify-content-end align-items-center">
                            <nav class="app-dm-main-navigation clearfix ul-li">
                                <ul id="app-dm-main-nav" class="nav navbar-nav clearfix">
-                                @auth
-                                   <li><a class="nav-link" href="#app-dm-banner">Home</a></li>
+
+                                   <li><a class="nav-link" href="{{route('home')}}">Home</a></li>
                                    <li><a class="nav-link" href="#app-dm-about">About</a></li>
                                    <li><a class="nav-link" href="#app-dm-service">Service</a></li>
                                    <li><a class="nav-link" href="#app-dm-benifit">Feature</a></li>
 
-                                   @endauth
 
-                                   
+
+
 
                                    <li><a class="nav-link" href="{{ route('login') }}">Login</a></li>
                                    <li><a class="nav-link" href="{{ route('register') }}">SignUp</a></li>
