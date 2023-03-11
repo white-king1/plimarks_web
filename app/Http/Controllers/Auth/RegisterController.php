@@ -76,6 +76,6 @@ class RegisterController extends Controller
 
         $user->save();
 
-
+        return $user;
     }
 }
