@@ -29,6 +29,9 @@ Route::middleware(['auth'])->prefix('admin')->group(function (){
 
 Route::get('/admin_dashboard', 'AdminDashboardController@admin')->name('admin');
 
+Route::get('/all_users','UsersController@allUsers')->name('all.users');
+Route::get('/delete_users/{id}', 'UsersController@deleteUsers')->name('delete.users');
+
 Route::get('/product-cat', 'HomeController@create')->name('product_category');
 
 });

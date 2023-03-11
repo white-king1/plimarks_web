@@ -126,7 +126,7 @@
                 </li>
 
                 <li class="nav-item menu-items">
-                    <a class="nav-link" href="index.html">
+                    <a class="nav-link" href="{{route('all.users')}}">
                         <span class="menu-icon">
                             <i class="mdi mdi-texture"></i>
                         </span>
